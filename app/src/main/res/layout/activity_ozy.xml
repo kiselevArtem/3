@@ -71,6 +71,7 @@
         android:id="@+id/button13"
         android:layout_width="160dp"
         android:layout_height="70dp"
+        android:onClick="addOzy"
         android:text="@string/addozy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

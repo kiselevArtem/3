@@ -13,7 +13,7 @@ import java.util.Scanner;
 import info.vividcode.android.zxing.CaptureActivity;
 import info.vividcode.android.zxing.CaptureActivityIntents;
 
-public class MainActivity extends AppCompatActivity {
+public class  MainActivity extends AppCompatActivity {
 
     TextView tvScanResult;
     Button btScan;

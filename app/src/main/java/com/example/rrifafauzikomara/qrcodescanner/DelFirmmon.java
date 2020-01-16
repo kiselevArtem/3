@@ -47,6 +47,7 @@ public class DelFirmmon extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "Данные удалены", Toast.LENGTH_SHORT).show();
         super.onBackPressed();
     }
+    //
     public void izmen(View view) {
         DBH.Del_in("UPDATE  firmmonit set monitor_name='"+TB_mon.getText().toString()+"' where _id =" + id + "");
         Toast.makeText(getApplicationContext(), "Данные изменены", Toast.LENGTH_SHORT).show();

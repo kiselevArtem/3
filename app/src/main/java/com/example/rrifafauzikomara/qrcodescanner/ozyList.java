@@ -37,8 +37,8 @@ public class ozyList extends AppCompatActivity {
 
                 String text = userList.getItemAtPosition(position).toString();
                 String str[] = text.split(":");
-                Intent intent = new Intent(getApplicationContext(), work_monit.class);
-                intent.putExtra("id", str[0].trim());
+                Intent intent = new Intent(getApplicationContext(), ozyAdDel.class);
+                intent.putExtra("zapros", str[0].trim());
                 startActivity(intent);
             }
         });
@@ -67,8 +67,8 @@ public class ozyList extends AppCompatActivity {
                     " : " + userCursor.getString(1)+
                     "  " + userCursor.getString(2)+
                     "  " + userCursor.getString(3)+
-                    " Цена: " + userCursor.getString(5) +
-                    " Количество: " + userCursor.getString(6));
+                    " Цена: " + userCursor.getString(4) +
+                    " Количество: " + userCursor.getString(5));
         }
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, plansListItem);
         userList.setAdapter(adapter);

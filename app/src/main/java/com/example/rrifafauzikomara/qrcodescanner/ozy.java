@@ -99,4 +99,9 @@ public class ozy extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void addOzy(View view) {
+        Intent intent = new Intent(ozy.this,ozyAdDel.class);
+        intent.putExtra("zapros", 100);
+        startActivity(intent);
+    }
 }

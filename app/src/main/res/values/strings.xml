@@ -18,6 +18,7 @@
     <string name="addozy">Добавить озу</string>
     <string name="ozypoisk">Поиск по DDR</string>
     <string name="Opoisk">Поиск по объёму</string>
+    <string name="QR">Получение QR кода</string>
 
     <string name="nazv">Название</string>
     <string name="cvet">Цвет</string>

@@ -23,6 +23,7 @@ public class camera extends AppCompatActivity {
         btScan = findViewById(R.id.bt_scan);
 
     }
+    //
     public void onClick(View view) {
         Intent captureIntent = new Intent(camera.this, CaptureActivity.class);
         startActivityForResult(captureIntent, 0);

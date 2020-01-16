@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class MonitList extends AppCompatActivity {
     DBHelper DBH;
-   // Button btnAddTipM;
+
     ArrayList<String> plansListItem;
     ArrayAdapter adapter;
     String zapros;

@@ -92,10 +92,10 @@ public class Monit_add extends AppCompatActivity {
                 i=(userCursor.getString(0));
             } while (userCursor.moveToNext());
         }
-
-        String zapros ="INSERT INTO monit(nazv_mon, color, monitor_diag,prise,kolvo, QR, id_tipmon) VALUES " +
+         int aaa=spiner.getSelectedItemPosition();
+      String zapros ="INSERT INTO monit(nazv_mon, color, monitor_diag,prise,kolvo, QR, id_tipmon) VALUES " +
                 "('"+a+"','"+zvet.getText().toString()+"','"+diag.getText().toString()+
-                "\"',"+ Integer.parseInt(prise.getText().toString())+","+Integer.parseInt(kolvo.getText().toString())+
+                "',"+ Integer.parseInt(prise.getText().toString())+","+Integer.parseInt(kolvo.getText().toString())+
                 ",'"+tvQr.getText().toString()+"',1)";
 
         DBH.Del_in(zapros);
