@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">БД</string>
+
+    <string name="BTN_monit">Мониторы</string>
+    <string name="Camera">Работа с камерой</string>
+    <string name="BTN_addMon">Добавить</string>
+    <string name="BTN_poiskMon">Поиск мониторов</string>
+    <string name="BTN_izmen">Изменить</string>
+    <string name="BTN_del">Удалить</string>
+    <string name="ListM">Список мониторов</string>
+    <string name="izmFirm">Изменение фирм</string>
+    <string name="ListFirm">Список фирм</string>
+    <string name="addMonit">Добавить монитор</string>
+    <string name="qrpoisk">Поиск по qr коду</string>
+    <string name="firpoisk">Поиск по изготовителю</string>
+
+    <string name="Listozy">Список озу</string>
+    <string name="addozy">Добавить озу</string>
+    <string name="ozypoisk">Поиск по DDR</string>
+    <string name="Opoisk">Поиск по объёму</string>
+
+    <string name="nazv">Название</string>
+    <string name="cvet">Цвет</string>
+    <string name="diag">Диагональ</string>
+    <string name="prise">Цена</string>
+    <string name="kolvo">Количество</string>
+    <string name="qr">qr</string>
+
+</resources>
